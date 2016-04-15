@@ -18,6 +18,7 @@
 		BDBB76E81CBF93D400BA2B02 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76E71CBF93D400BA2B02 /* AlbumView.swift */; };
 		BDBB76ED1CBFD0EF00BA2B02 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76EC1CBFD0EF00BA2B02 /* LibraryAPI.swift */; };
 		BDBB76F11CC0C00400BA2B02 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76F01CC0C00400BA2B02 /* PersistencyManager.swift */; };
+		BDBB76F31CC0C56500BA2B02 /* AlbumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76F21CC0C56500BA2B02 /* AlbumExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BDBB76E71CBF93D400BA2B02 /* AlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 		BDBB76EC1CBFD0EF00BA2B02 /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 		BDBB76F01CC0C00400BA2B02 /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
+		BDBB76F21CC0C56500BA2B02 /* AlbumExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		BDBB76E91CBFCE7A00BA2B02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDBB76F21CC0C56500BA2B02 /* AlbumExtensions.swift */,
 				BD7D35A91CBF8961005D09A0 /* Album.swift */,
 			);
 			name = Model;
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				101DD6CD1A052EDE00161F0D /* ViewController.swift in Sources */,
+				BDBB76F31CC0C56500BA2B02 /* AlbumExtensions.swift in Sources */,
 				101DD6CB1A052EDE00161F0D /* AppDelegate.swift in Sources */,
 				BDBB76ED1CBFD0EF00BA2B02 /* LibraryAPI.swift in Sources */,
 				101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */,
