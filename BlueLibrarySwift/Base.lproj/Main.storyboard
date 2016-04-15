@@ -41,7 +41,7 @@
                                 </constraints>
                                 <items/>
                             </toolbar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCJ-c6-A01">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCJ-c6-A01" customClass="HorizontalScroller" customModule="BlueLibrarySwift" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
                                 <color key="backgroundColor" red="0.78837685899999999" green="0.78972791379999996" blue="0.81034482760000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -50,7 +50,7 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="bug-Yd-y9Q">
                                 <rect key="frame" x="0.0" y="120" width="600" height="372"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.86274516580000005" green="0.86274516580000005" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="fEN-Zg-E6v" detailTextLabel="9Ff-LB-23a" style="IBUITableViewCellStyleValue1" id="nGI-5n-ceC">
@@ -64,7 +64,7 @@
                                                     <rect key="frame" x="15" y="12" width="32" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Ff-LB-23a">
@@ -99,6 +99,7 @@
                     <navigationItem key="navigationItem" title="Pop Music" id="uLL-cE-ggB"/>
                     <connections>
                         <outlet property="dataTable" destination="bug-Yd-y9Q" id="yas-fl-POo"/>
+                        <outlet property="scroller" destination="mCJ-c6-A01" id="7zl-VJ-Rkp"/>
                         <outlet property="toolbar" destination="Neo-nw-t9H" id="dxl-Oc-qum"/>
                     </connections>
                 </viewController>

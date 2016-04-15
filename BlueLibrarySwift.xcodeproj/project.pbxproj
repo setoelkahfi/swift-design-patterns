@@ -19,6 +19,7 @@
 		BDBB76ED1CBFD0EF00BA2B02 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76EC1CBFD0EF00BA2B02 /* LibraryAPI.swift */; };
 		BDBB76F11CC0C00400BA2B02 /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76F01CC0C00400BA2B02 /* PersistencyManager.swift */; };
 		BDBB76F31CC0C56500BA2B02 /* AlbumExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76F21CC0C56500BA2B02 /* AlbumExtensions.swift */; };
+		BDBB76F71CC0D81C00BA2B02 /* HorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB76F61CC0D81C00BA2B02 /* HorizontalScroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BDBB76EC1CBFD0EF00BA2B02 /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 		BDBB76F01CC0C00400BA2B02 /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
 		BDBB76F21CC0C56500BA2B02 /* AlbumExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumExtensions.swift; sourceTree = "<group>"; };
+		BDBB76F61CC0D81C00BA2B02 /* HorizontalScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalScroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				BDBB76E71CBF93D400BA2B02 /* AlbumView.swift */,
+				BDBB76F61CC0D81C00BA2B02 /* HorizontalScroller.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				BDBB76F31CC0C56500BA2B02 /* AlbumExtensions.swift in Sources */,
 				101DD6CB1A052EDE00161F0D /* AppDelegate.swift in Sources */,
 				BDBB76ED1CBFD0EF00BA2B02 /* LibraryAPI.swift in Sources */,
+				BDBB76F71CC0D81C00BA2B02 /* HorizontalScroller.swift in Sources */,
 				101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */,
 				BDBB76E81CBF93D400BA2B02 /* AlbumView.swift in Sources */,
 				BD7D35AA1CBF8961005D09A0 /* Album.swift in Sources */,
