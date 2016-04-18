@@ -27,7 +27,7 @@ class LibraryAPI: NSObject {
         isOnline = false
         
         super.init()
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "downloadImage", name: "BLDownloadImageNotification", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "downloadImage:", name: "BLDownloadImageNotification", object: nil)
         
     }
     
@@ -53,7 +53,7 @@ class LibraryAPI: NSObject {
         }
     }
     
-    func dowloadImage(notification: NSNotification) {
+    func downloadImage(notification: NSNotification) {
         // 1
         let userInfo = notification.userInfo as! [String: AnyObject]
         let imageView = userInfo["imageView"] as! UIImageView?
